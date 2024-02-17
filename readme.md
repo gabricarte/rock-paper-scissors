@@ -8,6 +8,7 @@ This project is a simple implementation of the classic game "Rock, Paper, Scisso
 It is built using HTML5, CSS3, and Vanilla JavaScript.
 
 ## Demo
+![image](https://github.com/gabricarte/rock-paper-scissors/assets/104357417/7d88c612-2f4c-4e38-ac8a-771247b221a0)
 
 You can try out the project in action on CodePen. [Click here to access the demo](https://codepen.io/gabricarte/full/XWGOoJp).
 
