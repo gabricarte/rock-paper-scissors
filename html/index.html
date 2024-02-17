@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, paper, scissors</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+            <p id="wins-count">Wins: 0</p>
+            <p id="losses-count">Losses: 0</p>
+            <p id="ties-count">Ties: 0</p>
+            <div class="user-container">
+                <img src="https://cdn-icons-png.flaticon.com/512/186/186037.png" alt="Woman avatar illustration">
+            </div>
+    </header>
+    <main>
+        <h1>Rock, Paper, Scissors</h1>
+        <div class="sections-container">
+            <section id="section-play">
+                <h2>Play against the computer! </h2>
+                <input type="text" id="input-choice-user" placeholder="type rock, paper or scissors">
+                <button id="btn-send">Send</button>    
+            </section>
+            <section style="display: none;" id="section-result">
+                <h2 id="result"></h2>
+                <img src="https://i.pinimg.com/originals/17/85/d3/1785d33da4e3ea5ef5c1f3818dc0b4f7.png" alt="Computer illustration in PixelArt">
+                <p id="p-computer-choice"></p>
+                <p id="p-user-choice"></p>
+                <button id="btn-new-match">New match</button>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li>Made with ♥</li>
+            <li>
+                <a href="https://www.linkedin.com/in/gabriela-ricarte/" target="_blank">Linkedin |</a>
+                <a href="https://github.com/gabricarte" target="_blank">Github</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="../js/index.js" type="module"></script>
+</body>
+</html>
